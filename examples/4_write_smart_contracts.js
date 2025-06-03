@@ -10,8 +10,8 @@ const provider = new ethers.JsonRpcProvider(URL)
 
 // Define "Application Binary Interface"
 const ERC20_ABI = [
-  "function decimals() view returns (uint)",
-  "function balanceOf(address) view returns (uint)",
+  "function decimals() view returns (uint8)",
+  "function balanceOf(address) view returns (uint256)",
   "function transfer(address to, uint amount) returns (bool)",
 ];
 
